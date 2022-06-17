@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao Document Object Model</title>
+
+   
+    <style>
+        body{
+            background-color: rgb(127, 195, 255);
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            box-sizing: border-box;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1> Iniciando estudos DOM</h1>
+    <p id="msg"> Aqui vai o Resultado</p>
+    <p>Aperendendo a usar o <strong>DOM </strong>com JavaScript</p>
+    <div> Clique em Mim</div>
+
+    <Script>
+        var p1 = document.querySelector('#msg')
+        document.write('Esta Escrito assim: ' + p1.innerHTML)
+        p1.style.color = 'blue'
+        p1.style.background ='white'
+
+        alert(p1.innerHTML)
+
+            
+       
+    </Script>
+    
+</body>
+</html>
