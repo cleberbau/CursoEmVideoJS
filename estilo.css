@@ -19,8 +19,19 @@ section{
     
 }
 
+div{
+    text-align: center;
+    padding: 8px;
+}
+
 footer{
     color: white;
     text-align: center;
     font-style:italic ;
+}
+
+.paisagem{
+    width: 200px;
+    height: 200px;
+
 }
